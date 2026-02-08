@@ -1,6 +1,6 @@
-# Welcome to your Expo app 👋
+# Welcome to Mini LMS Mobile App using React Native Expo 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a mini login management system [Expo](https://expo.dev) project created using **SOLID Principles**
 
 ## Get started
 
@@ -23,28 +23,75 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Features
 
-When you're ready, run:
+ - User Authentication
+	 - Registration
+	 - Login
+	 - Auto-login on app restart
+	 - Logout
+ - Profile Screen
+	 - Profile information
+	 - Update profile picture
+	 - User statistics (courses enrolled, progress)
+ - Course Catalog
+	 - Course card
+		 - Course thumbnail
+		 - Course title & description
+		 - Instructor name
+		 - Bookmark
+	 - Pull to refresh
+	 - Search
+ - Course Details
+	 - Complete course information
+	 - "Enroll" button with visual feedback
+	 - Bookmark toggle with local storage
+ - Notifications
 
-```bash
-npm run reset-project
-```
+## Technology Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+ - API Base: https://api.freeapi.app/
+ - Framework: React Native Expo
+ - Language: TypeScript (strict mode enabled)
+ - DevOps: Expo Application Services
+ - MVVM (Model-View-ViewModel) architectural pattern
+ - SOLID Principles
+ - WebView - Bidirectional communication
+ - State Management - Redux Toolkit
+ - API Integration
+	 - Axios
+	 - Interceptors
+	 - Redux AsyncThunk
+ - Performance optimization
+ - Native Features
+	 - Notifications
+	 - Network monitoring
+	 - Custom modules
+	 - Biometric auth
+	 - Background tasks
+ - Error Handling
+	 - Boundaries
+	 - Offline mode
+	 - Retry mechanisms
+ - Data Persistence: 
+	 - Expo SecureStore (for sensitive data)
+	 - AsyncStorage (for app data)
+ - Navigation: Expo router
+ - Styling: NativeWind (Tailwind for React Native)
+ - Testing: Jest + React Native Testing Library
+ - Error Tracking: Sentry
+ - Analytics: Expo Analytics
+ - Forms: React Hook Form	
+ - Validation: Zod
+ - Image Handling: Expo Image with caching
+ - AI Integration: OpenAI SDK for recommendations & smart search
+ - Advanced UI
+	 - Reanimated
+	 - Gestures
+	 - Dark Mode
+	 - Accessibility
+ - Security
+	 - Certificate pinning
+	 - Encryption
+	 - Jailbreak detection
