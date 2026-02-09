@@ -2,7 +2,7 @@ import { Redirect, Tabs } from "expo-router";
 
 export default function ProtectedLayout() {
 
-  let isAuthenticated = true
+  let isAuthenticated = false
 
   if (!isAuthenticated) {
     return <Redirect href="/login" />
